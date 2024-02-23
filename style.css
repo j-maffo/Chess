@@ -1,0 +1,61 @@
+html {
+  background-image: url(images/boardBackground.jpg);
+}
+body {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 600px;
+  margin: auto;
+  padding: 1px 150px;
+}
+img {
+  width: 400px;
+  height: 300px;
+}
+.kavivanar-regular {
+  font-family: "Kavivanar", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/* // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900 */
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  text-align: justify;
+}
+.below-image {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+h1 {
+  letter-spacing: 4px;
+  background-color: rgb(60, 60, 60);
+  margin: 25px auto;
+  border-radius: 25px;
+  width: 600px;
+  color: white;
+}
+h2 {
+  font-variant: small-caps;
+}
+#Pawn {
+  color: orange;
+  font-weight: bold;
+}
+#Knight {
+  color: blue;
+  font-weight: bold;
+}
+#Queen {
+  color: red;
+  font-weight: bold;
+}
